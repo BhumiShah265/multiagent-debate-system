@@ -1,0 +1,19 @@
+# Python virtual environment
+backend/venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+backend/.env
+
+# Local SQLite databases
+backend/*.db
+*.db
+
+# Node dependencies (for when we build the frontend)
+frontend/node_modules/
+frontend/dist/
+
+# OS-specific files
+.DS_Store
